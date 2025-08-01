@@ -1,6 +1,10 @@
 #科学插件调整
 CONFIG_PACKAGE_luci-app-homeproxy=y
 #增加插件
+# 集客无线AC控制器
+#CONFIG_PACKAGE_luci-app-gecoosac=y
+# 网络测速插件，支持内网网页测速（基于 homebox）、内网 iperf3 吞吐测试、外网 speedtest.net 测速（基于 speedtest-cli），以及特定服务器的端口延迟测试 
+#CONFIG_PACKAGE_luci-app-netspeedtest=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-gecoosac=y
 CONFIG_PACKAGE_luci-app-netspeedtest=y
@@ -93,3 +97,48 @@ CONFIG_PACKAGE_sfdisk=y
 CONFIG_PACKAGE_sgdisk=y
 CONFIG_PACKAGE_usbmuxd=y
 CONFIG_PACKAGE_usbutils=y
+
+#————————————————————————————————————————————————以下为自行增加的插件及组件————————————————————————————————————————————————————————————————————————————————————
+# IPTV组播转换
+CONFIG_PACKAGE_luci-app-msd_lite=y
+# IPTV组播代理
+CONFIG_PACKAGE_luci-app-omcproxy=y
+#FTP服务器
+CONFIG_PACKAGE_luci-app-vsftpd=y
+#web服务器
+CONFIG_PACKAGE_luci-app-uhttpd=y
+#关机poweroff
+#CONFIG_PACKAGE_luci-app-poweroff=y
+#分区扩容
+CONFIG_PACKAGE_luci-app-partexp=y
+#主题界面edge
+CONFIG_PACKAGE_luci-theme-edge=y
+#文件浏览器filebrowser-go
+#CONFIG_PACKAGE_luci-app-filebrowser-go=y
+#多端网盘挂载openlist
+CONFIG_PACKAGE_luci-app-openlist2=y
+#磁盘管理 LuCI 插件
+CONFIG_PACKAGE_luci-app-diskman=y
+#docker
+CONFIG_PACKAGE_luci-app-dockerman=y
+#ddns go
+CONFIG_PACKAGE_luci-app-ddns-go=y
+#openclash
+CONFIG_PACKAGE_luci-app-openclash=y
+#ttyd
+CONFIG_PACKAGE_luci-app-ttyd=y
+#qbittorrent
+CONFIG_PACKAGE_luci-app-qbittorrent=n
+#北京时区
+CONFIG_PACKAGE_zoneinfo-asia=y
+# 易有云文件管理器
+CONFIG_PACKAGE_linkmount=y
+CONFIG_PACKAGE_linkease=y
+CONFIG_PACKAGE_luci-app-linkease=y
+# 内核级驱动，性能高	功能较少（如不支持加密/压缩）	需要高性能读写 NTFS------------2025.07.10------------#
+CONFIG_PACKAGE_kmod-fs-ntfs3=y
+# luci-app-openvpn-server服务器
+CONFIG_PACKAGE_luci-app-openvpn-server=y
+# zram-swap内存压缩
+CONFIG_PACKAGE_kmod-zram=y
+CONFIG_PACKAGE_zram-swap=y
