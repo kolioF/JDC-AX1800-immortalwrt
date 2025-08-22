@@ -124,7 +124,7 @@ CONFIG_PACKAGE_luci-app-dockerman=y
 #ddns go
 CONFIG_PACKAGE_luci-app-ddns-go=y
 #openclash
-CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-openclash=n
 #ttyd
 CONFIG_PACKAGE_luci-app-ttyd=y
 #qbittorrent
@@ -138,7 +138,7 @@ CONFIG_PACKAGE_luci-app-linkease=y
 # 内核级驱动，性能高	功能较少（如不支持加密/压缩）	需要高性能读写 NTFS------------2025.07.10------------#
 CONFIG_PACKAGE_kmod-fs-ntfs3=y
 # luci-app-openvpn-server服务器
-CONFIG_PACKAGE_luci-app-openvpn-server=y
+CONFIG_PACKAGE_luci-app-openvpn-server=n
 # zram-swap内存压缩
 CONFIG_PACKAGE_kmod-zram=y
 CONFIG_PACKAGE_zram-swap=y
