@@ -22,7 +22,6 @@ CONFIG_TARGET_ROOTFS_INITRAMFS=n
 CONFIG_PACKAGE_kmod-bonding=y
 CONFIG_PACKAGE_kmod-dsa=y
 CONFIG_PACKAGE_kmod-fs-btrfs=y
-CONFIG_PACKAGE_kmod-fs-ntfs33=y
 CONFIG_PACKAGE_kmod-fuse=y
 CONFIG_PACKAGE_kmod-inet-diag=y
 CONFIG_PACKAGE_kmod-inet-mptcp-diag=y
@@ -131,7 +130,7 @@ CONFIG_PACKAGE_luci-app-openlist2=y
 #磁盘管理 LuCI 插件
 CONFIG_PACKAGE_luci-app-diskman=y
 #docker
-CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-dockerman=n
 #ddns go
 CONFIG_PACKAGE_luci-app-ddns-go=y
 #openclash
@@ -143,7 +142,7 @@ CONFIG_PACKAGE_luci-app-qbittorrent=n
 #北京时区
 CONFIG_PACKAGE_zoneinfo-asia=y
 #subconverter
-CONFIG_PACKAGE_subconverter=y
+#CONFIG_PACKAGE_subconverter=y
 # 易有云文件管理器
 CONFIG_PACKAGE_linkmount=y
 CONFIG_PACKAGE_linkease=y
