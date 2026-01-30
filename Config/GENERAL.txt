@@ -107,3 +107,50 @@ CONFIG_PACKAGE_usb-modeswitch=y
 CONFIG_PACKAGE_usbmuxd=y
 CONFIG_PACKAGE_usbutils=y
 CONFIG_PACKAGE_xz-utils=y
+#       个人插件
+
+# IPTV组播转换
+CONFIG_PACKAGE_luci-app-msd_lite=y
+# IPTV组播代理
+CONFIG_PACKAGE_luci-app-omcproxy=y
+#FTP服务器
+CONFIG_PACKAGE_luci-app-vsftpd=y
+#web服务器
+CONFIG_PACKAGE_luci-app-uhttpd=y
+#关机poweroff
+#CONFIG_PACKAGE_luci-app-poweroff=y
+#分区扩容
+CONFIG_PACKAGE_luci-app-partexp=y
+#主题界面edge
+CONFIG_PACKAGE_luci-theme-edge=y
+#文件浏览器filebrowser-go
+#CONFIG_PACKAGE_luci-app-filebrowser-go=y
+#多端网盘挂载openlist
+CONFIG_PACKAGE_luci-app-openlist2=y
+#磁盘管理 LuCI 插件
+CONFIG_PACKAGE_luci-app-diskman=y
+#docker
+CONFIG_PACKAGE_luci-app-dockerman=y
+#ddns go
+CONFIG_PACKAGE_luci-app-ddns-go=y
+#openclash
+CONFIG_PACKAGE_luci-app-openclash=n
+#ttyd
+CONFIG_PACKAGE_luci-app-ttyd=y
+#qbittorrent
+CONFIG_PACKAGE_luci-app-qbittorrent=n
+#北京时区
+CONFIG_PACKAGE_zoneinfo-asia=y
+#subconverter
+CONFIG_PACKAGE_subconverter=y
+# 易有云文件管理器
+CONFIG_PACKAGE_linkmount=y
+CONFIG_PACKAGE_linkease=y
+CONFIG_PACKAGE_luci-app-linkease=y
+# 内核级驱动，性能高	功能较少（如不支持加密/压缩）	需要高性能读写 NTFS------------2025.07.10------------#
+CONFIG_PACKAGE_kmod-fs-ntfs3=y
+# luci-app-openvpn-server服务器
+CONFIG_PACKAGE_luci-app-openvpn-server=n
+# zram-swap内存压缩
+CONFIG_PACKAGE_kmod-zram=y
+CONFIG_PACKAGE_zram-swap=y
