@@ -144,7 +144,7 @@ jobs:
             echo "caches cleanup done!"
           fi
 
-    - name: Update Feeds
+      - name: Update Feeds
         run: |
           cd ./wrt/
           ./scripts/feeds update -a
@@ -154,8 +154,7 @@ jobs:
         run: |
           cd ./wrt/
           # 1. 强制修复 ntfs33 拼写错误，将其指向正确的 ntfs3
-          find ./feeds/ -name Makefile -exec sed -i 's/kmod-fs-ntfs33/kmod-fs-ntfs3/g' {} +
-          done
+          find ./feeds/ -name Makefile -exec sed -i 's/kmod-fs-ntfs33/kmod-fs-ntfs3/g' {} +          
       
       - name: Custom Packages
         run: |
