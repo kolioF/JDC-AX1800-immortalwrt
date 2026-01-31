@@ -130,7 +130,7 @@ CONFIG_PACKAGE_luci-app-openlist2=y
 #磁盘管理 LuCI 插件
 CONFIG_PACKAGE_luci-app-diskman=y
 #docker
-CONFIG_PACKAGE_luci-app-dockerman=n
+CONFIG_PACKAGE_luci-app-dockerman=y
 #ddns go
 CONFIG_PACKAGE_luci-app-ddns-go=y
 #openclash
