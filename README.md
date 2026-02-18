@@ -23,6 +23,7 @@ https://github.com/chenxin527/uboot-ipq60xx-nor-build
 https://drive.wrt.moe/uboot/mediatek
 
 # 固件简要说明
+nn6000v2 和 京东云亚瑟 
 
 固件每天早上4点自动编译。
 
